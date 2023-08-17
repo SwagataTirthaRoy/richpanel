@@ -9,7 +9,7 @@ window.location = "subplan.html"; // Redirecting to other page.
 return false;
 }
 else{
-attempt --;// Decrementing by one.
+attempt --;// Decrementing
 alert("You have left "+attempt+" attempt;");
 // Disabling fields after 3 attempts.
 if( attempt == 0){
