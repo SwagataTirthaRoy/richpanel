@@ -1,0 +1,33 @@
+<!-- public/plans.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Choose a Plan</title>
+</head>
+<body>
+    <h1>Choose a Plan</h1>
+    <div class="plans-container">
+    </div>
+    <form action="/subscribe" method="POST">
+        <label for="selectedPlan">Select a Plan:</label>
+        <select id="selectedPlan" name="selectedPlan">
+            <option value="basic">Basic</option>
+            <option value="standard">Standard</option>
+            <option value="premium">Premium</option>
+            <option value="regular">Regular</option>
+        </select>
+        <br>
+        <label for="billingInterval">Billing Interval:</label>
+        <select id="billingInterval" name="billingInterval">
+            <option value="monthly">Monthly</option>
+            <option value="yearly">Yearly</option>
+        </select>
+        <br>
+        <button type="submit">Subscribe</button>
+    </form>
+</body>
+</html>

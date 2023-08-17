@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="st1.css">
+    <script src="script.js" defer></script>
+    <title>Choose a Plan</title>
+</head>
+<body>
+
+    <h1>Choose the right plan for you</h1>
+      <table>
+          <colgroup></colgroup>
+          <colgroup></colgroup>
+          <colgroup></colgroup>
+          <colgroup></colgroup>
+          <colgroup></colgroup>
+  
+          <thead>
+              <tr>
+                  <th>
+                    <h2>
+                        <div class="container">
+                            <div class="subscription-buttons">
+                                <button class="subscription-button" onclick="navigateToForm('monthly')">Monthly</button>
+                                <button class="subscription-button" onclick="navigateToForm('yearly')">Yearly</button>
+                            </div>
+                        </div>
+                        
+                        <script>
+                            function navigateToForm(plan) {
+                                if (plan === 'monthly') {
+                                    window.location.href = 'monthlyf.html'; // Replace with your Monthly form URL
+                                } else if (plan === 'yearly') {
+                                    window.location.href = 'yearlyf.html'; // Replace with your Yearly form URL
+                                }
+                            }
+                        </script>
+                    </h2>
+                  </th>
+                  <th>
+                      <h2>Mobile</h2>
+                  </th>
+                  <th>
+                      <h2>Basic</h2>
+                  </th>
+                  <th>
+                      <h2>Standard</h2>
+                  </th>
+            <th>
+                      <h2>Premium</h2>
+                  </th>
+              </tr>
+          </thead>
+  
+          <tfoot>
+              <tr>
+                  <th>&nbsp;</th>
+                  <td><a href="#">Next</a></td>
+              </tr>
+          </tfoot>
+  
+          <tbody>
+              <tr>
+                  <th>Monthly Price</span></th>
+                  <td>₹ 1000</td>
+                  <td>₹ 2000</td>
+                  <td>₹ 5000</td>
+                  <td>₹ 7000</td>
+              </tr>
+              <tr>
+                  <th>Video Quality</th>
+                  <td>Good</td>
+                  <td>Good</td>
+                  <td>Better</td>
+                  <td>Best</td>
+              </tr>
+              <tr>
+                  <th>Resolution</th>
+                  <td>480p</td>
+                  <td>480p</td>
+                  <td>1080p</td>
+                  <td>4K+HDR</td>
+              </tr>
+              <tr>
+                  <th>Devices you can use to watch</th>
+                  <td>Phone</td>
+                  <td>Phone</td>
+                  <td>Phone</td>
+                  <td>Phone</td>
+              </tr>
+              <tr>
+                  <th></th>
+                  <td>Tablet</td>
+                  <td>Tablet</td>
+                  <td>Tablet</td>
+                  <td>Tablet</td>
+              </tr>
+            <tr>
+                  <th></th>
+                  <td></td>
+                  <td>Computer</td>
+                  <td>Computer</td>
+                  <td>Computer</td>
+            </tr>
+            <tr>
+                <th></th>
+                <td></td>
+                <td>TV</td>
+                <td>TV</td>
+                <td>TV</td>
+            </tr>
+              </tr>
+          </tbody>
+      </table>
+  </body>

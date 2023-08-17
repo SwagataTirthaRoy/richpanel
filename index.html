@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="login.js" defer></script>
+    <title>Subscription App</title>
+  <!---Custom CSS File--->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <input type="checkbox" id="check">
+    <div class="login form">
+      <header>Login to your account</header>
+      <form id="form_id" method="post" name="myform">
+        <label>User Name :</label>
+        <input type="text" name="username" id="username"/>
+        <label>Password :</label>
+        <input type="password" name="password" id="password"/>
+        <a href="#">Remember Me</a>
+        <input type="button" class="button" value="Login" id="submit" onclick="validate()">
+      </form>
+      
+      <div class="signup">
+        <span class="signup">New to MyApp?
+         <label for="check">Signup</label>
+        </span>
+      </div>
+    </div>
+    
+    <div class="registration form">
+      <header>Signup</header>
+      <form id="form_id" method="post" name="myform">
+        <label>Enter your Email :</label>
+        <input type="text" name="username" id="username"/>
+        <label>Create a Password :</label>
+        <input type="password" name="password" id="password"/>
+        <label>Confirm Password :</label>
+        <input type="password" name="password" id="password"/>
+        <a href="#">Remember Me</a>
+        <input type="button" class="button" value="Signup" id="submit" onclick="validate()">
+      </form>
+      <div class="signup">
+        <span class="signup">Already have an account?
+         <label for="check">Login</label>
+        </span>
+      </div> 
+    </div>
+  </div>
+</body>
+</html>

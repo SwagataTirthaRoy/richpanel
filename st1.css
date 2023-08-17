@@ -1,0 +1,98 @@
+body 
+{ 
+    background: #fff; 
+    font: 400 1em/1.4 "Open Sans", "Helvetica Neue", sans-serif; 
+    color: #333; 
+    text-align: center; 
+    padding: 4em 2em; 
+}
+
+h1 
+{ 
+    font-weight: 300; 
+    font-size: 3em; 
+    line-height: 1.35; 
+    margin: 0 0 .125em; 
+}
+
+h2 
+{ 
+     
+    background: hsl(223, 40%, 57%); 
+    font-weight: 200; 
+    font-size: 2em; 
+    line-height: 5;
+    text-align: center;
+}
+h2:hover 
+{ 
+     
+    background: hsl(224, 81%, 23%); 
+    font-weight: 200; 
+    font-size: 2em; 
+    line-height: 5;
+    text-align: center;
+}
+th, td 
+{ 
+    font-family: inherit; 
+    font-size: .875em; 
+    line-height: 1.45; 
+    color: #444;  
+    padding: 1em; 
+}
+th 
+{ 
+    font-weight: 400; 
+}
+colgroup:nth-child(1) 
+{ 
+    color: #fff; 
+    font-weight: 500; 
+    font-size: 6em;
+    width: 3%; 
+    padding: 5em; 
+}
+colgroup:nth-child(2) 
+{ 
+    width: 2%; 
+}
+colgroup:nth-child(3) 
+{ 
+    width: 2%; 
+}
+colgroup:nth-child(4) 
+{ 
+    width: 2%;  
+}
+colgroup:nth-child(5) 
+{ 
+    width: 2%; 
+}
+
+/* Tablehead */
+
+thead th 
+{ 
+  text-align: center; 
+  padding: 3em 0 2em; 
+  font-weight: 400; 
+  color: #fff; 
+}
+thead th:nth-child(1) 
+{ 
+    background: transparent;  
+}
+
+/* Tablefooter */
+tfoot a  
+{ 
+    font-weight: bold; 
+    color: #fff; 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    line-height: 3%;
+    padding: 1.125em 2em; 
+    background: hsl(224, 77%, 32%); 
+    border-radius: .5em; 
+}
